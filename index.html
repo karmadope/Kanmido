@@ -6,11 +6,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
+            margin: 0 auto; /* 画面中央に配置 */
+            max-width: 800px; /* 最大幅を指定 */
             padding: 20px;
         }
 
@@ -48,13 +45,13 @@
             padding: 5px 10px;
         }
 
-        /* 小計のボックスの幅を固定するスタイル */
         .subtotal-box {
-            min-width: 80px; /* ここに適切な幅を設定してください */
-            display: inline-block; /* インラインブロックにすることで幅を固定 */
-            text-align: right; /* 右寄せにすることで数字が右端に揃う */
+            min-width: 100px; /* 小計のボックスの最小幅を指定 */
+            display: inline-block;
+            text-align: right;
         }
     </style>
+
 </head>
 <script>
 var nyandangoSumValue = 0;
