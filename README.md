@@ -1,3 +1,3 @@
 Made by himatchi 
 
-https://karmadope.github.io/TooLazyToOpen/
+https://karmadope.github.io/Kanmido/
