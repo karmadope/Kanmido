@@ -398,6 +398,61 @@ document.addEventListener('DOMContentLoaded', function() {
                 </td>
                 <td><span id="taiyakiSum">¥0</span></td>
             </tr>
+            <tr>
+    <td>5</td>
+    <td>抹茶</td>
+    <td>¥50,000</td>
+    <td>
+        <input type="button" value="-10" onclick="changeCount(mattyaCount,-10)" tabindex="-1">
+        <input type="button" value="-1" onclick="changeCount(mattyaCount,-1)" tabindex="-1">
+        <input type="number" value="0" id="mattyaCount" size="5" onchange="calc()">
+        <input type="button" value="+1" onclick="changeCount(mattyaCount,1)" tabindex="-1">
+        <input type="button" value="+10" onclick="changeCount(mattyaCount,10)" tabindex="-1">
+    </td>
+    <td><span id="mattyaSum">¥0</span></td>
+</tr>
+
+<tr>
+    <td>6</td>
+    <td>甘味酒</td>
+    <td>¥50,000</td>
+    <td>
+        <input type="button" value="-10" onclick="changeCount(kanmisakeCount,-10)" tabindex="-1">
+        <input type="button" value="-1" onclick="changeCount(kanmisakeCount,-1)" tabindex="-1">
+        <input type="number" value="0" id="kanmisakeCount" size="5" onchange="calc()">
+        <input type="button" value="+1" onclick="changeCount(kanmisakeCount,1)" tabindex="-1">
+        <input type="button" value="+10" onclick="changeCount(kanmisakeCount,10)" tabindex="-1">
+    </td>
+    <td><span id="kanmisakeSum">¥0</span></td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>月見うさぎ大福</td>
+    <td>¥1,000,000</td>
+    <td>
+        <input type="button" value="-10" onclick="changeCount(moonRabitDaifukuCount,-10)" tabindex="-1">
+        <input type="button" value="-1" onclick="changeCount(moonRabitDaifukuCount,-1)" tabindex="-1">
+        <input type="number" value="0" id="moonRabitDaifukuCount" size="5" onchange="calc()">
+        <input type="button" value="+1" onclick="changeCount(moonRabitDaifukuCount,1)" tabindex="-1">
+        <input type="button" value="+10" onclick="changeCount(moonRabitDaifukuCount,10)" tabindex="-1">
+    </td>
+    <td><span id="moonRabitDaifukuSum">¥0</span></td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>金平糖</td>
+    <td>¥5,000</td>
+    <td>
+        <input type="button" value="-10" onclick="changeCount(konpeitouCount,-10)" tabindex="-1">
+        <input type="button" value="-1" onclick="changeCount(konpeitouCount,-1)" tabindex="-1">
+        <input type="number" value="0" id="konpeitouCount" size="5" onchange="calc()">
+        <input type="button" value="+1" onclick="changeCount(konpeitouCount,1)" tabindex="-1">
+        <input type="button" value="+10" onclick="changeCount(konpeitouCount,10)" tabindex="-1">
+    </td>
+    <td><span id="konpeitouSum">¥0</span></td>
+</tr>
             <!-- Add more rows here -->
         </tbody>
     </table>
