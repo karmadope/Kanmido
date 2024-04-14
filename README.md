@@ -1,3 +1,3 @@
-Made by himatchi \n
+Made by himatchi 
 
 https://karmadope.github.io/TooLazyToOpen/
