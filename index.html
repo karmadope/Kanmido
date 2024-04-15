@@ -65,7 +65,7 @@ var konpeitouSumValue = 0;
 
 var deliverySumValue = 0;
 var allSumValue = 0;
-var loaded = true; // Can't be TRUE so that paste doesn't work
+var loaded = false; // Can't be TRUE so that paste doesn't work
 
 function isExpiryValid(expiry) {
   // 現在の日時を取得
@@ -332,7 +332,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.value = this.value.replace(/[^1-6]/g, '');
     }
   });
-  loeaded = true;
+  loaded = true;
 });
 </script>
 <body>
